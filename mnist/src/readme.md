@@ -7,14 +7,16 @@ Finally, the pseudo-labeled public samples are employed to train student model.
 In DPSGD, we obtain a public representation model with the aid of DTI and extract private data into latent features.
 With these private training features, we train a simple two-layer perceptron as classification network.
 
-&#x1F680; Installation
+### &#x1F680; Installation
+
 This code depends on  DTI clustering, and therefore you can refer to [DTI repo](https://github.com/monniert/dti-clustering) for installation.
 Also you can simplely run:
 ```
 conda env create -f rknn_mnist.yml
 conda activate rknn_mnist
 ```
-&#x1F308; Launch training 
+
+### &#x1F308; Launch training 
 
 #### 1. cluster public data
 ```
