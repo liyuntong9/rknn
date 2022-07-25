@@ -7,14 +7,17 @@ Finally, the pseudo-labeled queries are employed for the semi-supervised trainin
 In DPSGD, we use HOG to extract private data into latent features.
 With these private training features, we train a simple two-layer perceptron as classification network.
 
-&#x1F308; Installation
+### &#x1F308; Installation
+
 This code depends on semi-supervised training algorithm Mixmatch, and therefore you can refer to [Mixmatch repo](https://github.com/Jeffkang-94/Mixmatch-pytorch-SSL) for installation.
 Also you can simplely run:
 ```
 conda env create -f rknn_svhn.yml
 conda activate rknn_svhn
 ```
-&#x1F680; Launch a training
+
+### &#x1F680; Launch a training
+
 #### 1. get public features
 ```
 # modify env.yml to set hyperparams
