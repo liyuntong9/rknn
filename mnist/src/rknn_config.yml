@@ -1,0 +1,11 @@
+root_dir: /kolla/code/lyt/general_rknn/mnist/src/clustering/runs/mnist
+data_dir: /kolla/code/lyt/general_rknn/datasets/
+clusters: [10]
+neighbors: [1]
+eps_list: [1]
+exp_runs: 1
+gpu_id: 3
+seed: 42
+num_cls: 10
+epochs: 50
+dp_type: collision

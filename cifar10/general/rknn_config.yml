@@ -1,0 +1,9 @@
+feats_dir: /kolla/code/lyt/general_rknn/cifar10/general/feats
+data_dir: /kolla/code/lyt/general_rknn/datasets
+clusters: [500]
+neighbors: [1]
+eps_list: [1]
+exp_runs: 1
+seed: 42
+gpu_id: 1
+epochs: 160
