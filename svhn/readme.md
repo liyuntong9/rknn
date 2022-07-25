@@ -1,4 +1,4 @@
-##This subfolder contains the implementation code of RKNN on SVHN dataset.
+This subfolder contains the implementation code of RKNN on SVHN dataset.
 First, we use HOG & K-means++ to extract public features and cluster. 
 Then, we take cluster centers as query samples and connect private records to k-nearest queries.
 Afer voting, we add noise to label vectors for the purpose of centralized/local DP. 
